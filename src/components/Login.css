@@ -1,0 +1,29 @@
+.container {
+  align-items: center;
+
+  margin-top: 300px;
+  display: block;
+}
+.inputItems {
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.button {
+  background-color: teal;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border: 1px solid gray;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:disabled {
+  color: green;
+  cursor: not-allowed;
+}
+.errorMessage {
+  color: red;
+}
